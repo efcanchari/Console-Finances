@@ -75,3 +75,9 @@ Host github.com-efcanchari
    IdentityFile ~/.ssh/id_github_bootcamp
    IdentitiesOnly yes
 ```
+
+### Clone GitLab bootcamp code
+Clone code
+```
+git clone git@git.bootcampcontent.com:uk-edx-16-week/UK-VIRT-FE-PT-11-2023-U-LOLC-1.git
+```
