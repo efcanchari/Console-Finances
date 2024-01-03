@@ -43,3 +43,35 @@ git remote set-url origin git@github.com-{bitbucket_username}:{workspace}/{repo}
 #example
 git remote set-url origin git@github.com-efcanchari:efcanchari/bootcamp-module-1-challenge.git
 ```
+
+### config file
+File Name: ~/.ssh/config
+```
+Host bitbucket.org-frank_lapa_wiqu
+   HostName bitbucket.org
+   IdentityFile ~/.ssh/id_rsa
+   IdentitiesOnly yes
+
+Host bitbucket.org-franklapa
+   HostName bitbucket.org
+   IdentityFile ~/.ssh/id_jenkins_rsa
+   IdentitiesOnly yes
+
+
+Host bitbucket.org-frank_lapa_symovetech
+   HostName bitbucket.org
+   IdentityFile ~/.ssh/id_rsa_symovetech_laptop
+   IdentitiesOnly yes
+
+Host git.bootcampcontent.com
+   HostName git.bootcampcontent.com
+   User franklapa
+   IdentityFile ~/.ssh/id_bootcamp
+   IdentitiesOnly yes
+
+Host github.com-efcanchari
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_github_bootcamp
+   IdentitiesOnly yes
+```
